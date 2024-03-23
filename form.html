@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arif</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-[#F4F6F9] h-auto">
+      <div class="p-8 flex justify-between">
+        <div class="navbar">
+          <ul class="flex gap-6">
+            <li>
+              <a class="md:hidden" href=""
+                ><img src="./img/burger-menu.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/Vector (2).png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/Vector.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="flex gap-6 max-md:hidden">
+            <li
+              class="font-medium pt-2 tracking-wide text-center items-center text-[#0C0819]"
+            >
+              <a href="">servicii</a>
+            </li>
+            <li
+              class="font-medium pt-2 tracking-wide text-center items-center text-[#0C0819]"
+            >
+              <a href="">pachete</a>
+            </li>
+            <li
+              class="font-medium pt-2 tracking-wide text-center items-center text-[#0C0819]"
+            >
+              <a href="">despre</a>
+            </li>
+            <li
+              class="font-medium pt-2 tracking-wide text-center items-center text-[#0C0819]"
+            >
+              <a href="">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="flex gap-8 max-md:hidden">
+            <button
+              class="rounded-xl hover:ring-4 hover:bg-opacity-60 text-blue-600 items-center text-center p-4 ring-2"
+            >
+             <a href="./index.html">  RO ^</a>
+            </button>
+            <button
+              class="bg-[#7C57FC] hover:ring-4hover:bg-opacity-80 text-white items-center text-center text-[20px] p-2 rounded-xl"
+            >
+             <a href="./index.html"> sună acum </a>
+            </button>
+          </ul>
+
+          <button>
+            <a href="./index.html"> <img
+              class="bg-[#7C57FC] p-4 hover:ring-4 hover:bg-opacity-80 rounded-xl md:hidden"
+              src="./img/Vector 52.png"
+              alt=""
+            /></a>
+           
+          </button>
+        </div>
+      </div>
+      <br /><br />
+      <!-- ================ -->
+      <div class="bg-[#FFF] p-12 m-24 rounded-md shadow-lg">
+        <h1 class="text-[#0C0819] text-[36px] font-bold">formular comanda</h1>
+        <br />
+        <p class="text-[#6C6377]">
+          completeaza formularul si noi iti raspundem cu o oferta de pret in
+          maxim 2 ore
+        </p>
+        <br />
+        <h1 class="text-black text-[16px] font-bold">1.detalii traducere</h1>
+        <br />
+        <div class="grid-cols-2 flex gap-4 max-md:inline-block">
+          <select class="w-full p-4 border ring-2 rounded-lg">
+            <option selected>romaniya</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+          </select>
+          <br />
+          <br />
+          <select class="w-full p-4 border ring-2 rounded-lg">
+            <option selected>engela</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <div>
+          <h1 class="text-black text-[16px] font-bold">2.fomd pozoni</h1>
+          <br />
+          <input
+            class="w-full p-4 border ring-2 rounded-lg"
+            type="text"
+            placeholder="ax:0.35"
+          />
+        </div>
+
+        <br />
+        <p class="text-[#6C6377]">selectează tipul traducerii</p>
+        <br />
+        <div class="btndev flex gap-10 max-md:inline-block">
+          <button
+            class="p-4 right-2 text-white rounded-xl px-10 bg-[#7C57FC] hover:opacity-60"
+          >
+            autorizat
+          </button>
+          <br /><br>
+          <button
+            class="p-4 right-2 text-white rounded-xl px-10 bg-[#6C6377] hover:opacity-60"
+          >
+            legalizată
+          </button>
+        </button>
+        <br /><br>
+          <button
+            class="p-4 right-2 text-white rounded-xl px-10 bg-[#6C6377] hover:opacity-60"
+          >
+            interpretariat
+          </button>
+        </button>
+        <br /><br>
+          <button
+            class="p-4 right-2 text-white rounded-xl px-10 bg-[#6C6377] hover:opacity-60"
+          >
+            cu apostilă
+          </button>
+        </button>
+        <br /><br>
+        </div>
+        <br />
+        <h1 class="text-black text-[16px] font-bold">3.select date</h1>
+        <br />
+        <input class="w-full p-4 border ring-2 rounded-lg" type="date" />
+        <br />
+        <h1 class="text-black text-[16px] font-bold">4. data personal+</h1>
+        <br />
+        <div class="flex gap-10 max-md:inline-block">
+          <button
+            class="p-5 right-2 text-white rounded-xl px-10 bg-[#7C57FC] hover:opacity-60"
+          >
+            autorizat
+          </button>
+          <br />
+          <br />
+          <button
+            class="p-5 right-2 text-white rounded-xl px-10 bg-[#6C6377] hover:opacity-60"
+          >
+            legalizată
+          </button>
+        </div>
+        <br />
+        <br>
+        <!-- ================ -->
+        <div class="grid grid-cols-2 gap-6 max-md:inline-block">
+          <div>
+            <p class="block text-white">name</p>
+
+            <input
+              class="w-full border ring-2 p-4 px-6 rounded-lg"
+              type="text"
+              placeholder="name"
+            />
+          </div>
+          <div>
+            <p class="block text-white">pername</p>
+
+            <input
+              class="w-full border ring-2 p-4 px-6 rounded-lg"
+              type="text"
+              placeholder="pername"
+            />
+          </div>
+        </div>
+        <br />
+        <!-- ================ -->
+        <div class="grid grid-cols-2 gap-6 max-md:inline-block max-md:w-full">
+          <div>
+            <p class="block text-white">telefon</p>
+
+            <input
+              class="w-full border ring-2 p-4 px-6 rounded-lg"
+              type="text"
+              placeholder="+888"
+            />
+          </div>
+          <div>
+            <p class="block text-white">email</p>
+
+            <input
+              class="w-full border ring-2 p-4 px-6 rounded-lg"
+              type="text"
+              placeholder="email29@gmail.com"
+            />
+          </div>
+        </div>
+        <br />
+        <br>
+        <p class="text-[#6C6377] font-bold">cip</p>
+        <br />
+        <input
+          class="w-full p-4 border ring-2 rounded-lg"
+          type="text"
+          placeholder="ex: RO1234567"
+        />
+        <br /><br />
+        <br />
+        <div class="flex justify-end">
+          <button
+            class="p-4 right-2 w-full text-white rounded-xl px-10 bg-[#7C57FC] hover:opacity-60"
+          >
+            trimite comanda
+          </button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

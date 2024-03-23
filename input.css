@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+.header {
+  background-image: url(./img/D4\ HEADER.png);
+  width: 100%;
+  height: 670px;
+}
+.jk {
+  background-image: url(./img/n-2-bg\ 1.png);
+  width: 100%;
+  height: 400px;
+}
+
+@tailwind utilities;
